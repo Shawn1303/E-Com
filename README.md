@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a mock e-commerce website designed to showcase a range of products and provide a seamless shopping experience. Users can browse through products, view product details, add items to their cart, and view the cart contents via a convenient popover. During checkout, users can review their total cost, enter shipping details, and place orders, which are then stored in a database. The site features pagination to manage product listings effectively, displaying a set number of items per page
+This project is a mock e-commerce website designed to showcase a range of products and provide a seamless shopping experience. Users can browse through products, view product details, add items to their cart, and view the cart contents via a convenient popover. During checkout, users can review their total cost, enter shipping details, and place orders, which are then stored in a database. The site features pagination to manage product listings effectively, displaying a set number of items per page.
 
 ## Technologies Used
 
