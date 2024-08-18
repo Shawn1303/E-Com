@@ -37,4 +37,34 @@ Ensure you have the following installed:
    cd E-Com
 
 2. **Set Up the Backend**
-3. **Set Up the Frontend**
+   
+   - Create and Activate a Virtual Environment
+      ```bash
+      python -m venv .venv
+      ```
+      
+      Activate the Virtual Environment:
+     
+      - On Windows:
+        ```bash
+        .venv\Scripts\activate
+        
+      - On macOS/Linux:
+        ```bash
+        source .venv/bin/activate
+        
+   - Install Django and Dependencies
+     ```bash
+     pip install -r requirements.txt
+     
+   - Run Database Migrations
+     ```bash
+     python manage.py migrate
+
+   - Create a Superuser (Optional for Admin Access)
+     ```bash
+     python manage.py createsuperuser
+
+   - Start the Django Development Server
+     ```bash
+     python manage.py runserver
